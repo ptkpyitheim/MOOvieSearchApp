@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD159B01217D0F170022D451 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD159B00217D0F170022D451 /* CollectionViewCell.swift */; };
+		BD159B03217D56300022D451 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD159B02217D56300022D451 /* DetailViewController.swift */; };
 		BD7C8387217C0F4D007626D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C8386217C0F4D007626D6 /* AppDelegate.swift */; };
 		BD7C8389217C0F4D007626D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C8388217C0F4D007626D6 /* ViewController.swift */; };
 		BD7C838C217C0F4D007626D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7C838A217C0F4D007626D6 /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		BD7C8391217C0F55007626D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7C838F217C0F55007626D6 /* LaunchScreen.storyboard */; };
 		BD7C839C217C0F55007626D6 /* MovieSearchingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C839B217C0F55007626D6 /* MovieSearchingAppTests.swift */; };
 		BD7C83A7217C0F55007626D6 /* MovieSearchingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C83A6217C0F55007626D6 /* MovieSearchingAppUITests.swift */; };
+		BD7C83B5217C1D3B007626D6 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C83B4217C1D3B007626D6 /* MovieViewController.swift */; };
+		BD7C83B7217C2BC6007626D6 /* APIResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C83B6217C2BC6007626D6 /* APIResults.swift */; };
+		BD7C83B9217C2BD7007626D6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C83B8217C2BD7007626D6 /* Movie.swift */; };
+		BDFB01F7217E371000E24164 /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB01F6217E371000E24164 /* FavViewController.swift */; };
+		BDFB01F9217EC71900E24164 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFB01F8217EC71900E24164 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD159B00217D0F170022D451 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		BD159B02217D56300022D451 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BD7C8383217C0F4D007626D6 /* MovieSearchingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSearchingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7C8386217C0F4D007626D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD7C8388217C0F4D007626D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		BD7C83A2217C0F55007626D6 /* MovieSearchingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieSearchingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7C83A6217C0F55007626D6 /* MovieSearchingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchingAppUITests.swift; sourceTree = "<group>"; };
 		BD7C83A8217C0F55007626D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD7C83B4217C1D3B007626D6 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		BD7C83B6217C2BC6007626D6 /* APIResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResults.swift; sourceTree = "<group>"; };
+		BD7C83B8217C2BD7007626D6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BDFB01F6217E371000E24164 /* FavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
+		BDFB01F8217EC71900E24164 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +113,14 @@
 			children = (
 				BD7C8386217C0F4D007626D6 /* AppDelegate.swift */,
 				BD7C8388217C0F4D007626D6 /* ViewController.swift */,
+				BD7C83B4217C1D3B007626D6 /* MovieViewController.swift */,
+				BD7C83B6217C2BC6007626D6 /* APIResults.swift */,
+				BD7C83B8217C2BD7007626D6 /* Movie.swift */,
+				BD159B02217D56300022D451 /* DetailViewController.swift */,
 				BD7C838A217C0F4D007626D6 /* Main.storyboard */,
+				BDFB01F8217EC71900E24164 /* AboutViewController.swift */,
+				BDFB01F6217E371000E24164 /* FavViewController.swift */,
+				BD159B00217D0F170022D451 /* CollectionViewCell.swift */,
 				BD7C838D217C0F55007626D6 /* Assets.xcassets */,
 				BD7C838F217C0F55007626D6 /* LaunchScreen.storyboard */,
 				BD7C8392217C0F55007626D6 /* Info.plist */,
@@ -256,8 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7C83B9217C2BD7007626D6 /* Movie.swift in Sources */,
 				BD7C8389217C0F4D007626D6 /* ViewController.swift in Sources */,
+				BD159B01217D0F170022D451 /* CollectionViewCell.swift in Sources */,
+				BDFB01F9217EC71900E24164 /* AboutViewController.swift in Sources */,
 				BD7C8387217C0F4D007626D6 /* AppDelegate.swift in Sources */,
+				BD7C83B5217C1D3B007626D6 /* MovieViewController.swift in Sources */,
+				BD7C83B7217C2BC6007626D6 /* APIResults.swift in Sources */,
+				BDFB01F7217E371000E24164 /* FavViewController.swift in Sources */,
+				BD159B03217D56300022D451 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
